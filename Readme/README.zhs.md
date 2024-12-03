@@ -19,7 +19,7 @@
 
 ## 注意点
 - 不要重命名 `SimpleBossLifeBar.pak` ，UE4SS依赖文件名寻找MOD的入口，如果重命名会导致MOD无法正常运作
-- .sig的名字要与.pak文件一致，即 `SimpleBossLifeBar.sig` 。游戏在运行时会检查.pak文件是否有对应的.sig签名文件，理论上游戏的其他.sig文件也可以使用
+- .sig的名字需要与.pak文件一致，即 `SimpleBossLifeBar.sig` 。游戏在运行时会检查.pak文件是否有对应的.sig签名文件，理论上游戏的其他.sig文件也可以使用
 
 ## 图片
 ![Screenshot 1](Image/01.png)  
