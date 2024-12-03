@@ -1,8 +1,6 @@
-[English](Readme/README.en.md) | [简体中文](Readme/README.zhs.md) | [日本語](Readme/README.ja.md)
+[简体中文](Readme/README.zhs.md) | [日本語](Readme/README.ja.md)
 
 # Simple Boss LifeBar Mod for R-Type Final 2
-
-This is a Boss LifeBar mod designed for R-Type Final 2.
 
 ## Features
 - Supports displaying health for bosses with multiple cores and components.
@@ -26,7 +24,6 @@ This is a Boss LifeBar mod designed for R-Type Final 2.
 - The `.sig` file must match the `.pak` file name, i.e., `SimpleBossLifeBar.sig`. The game checks for a corresponding `.sig` signature file for each `.pak`. In theory, other `.sig` files from the game can also be used.
 
 ## Screenshots
-*(Insert screenshots here)*  
 ![Screenshot 1](Readme/Image/01.png)  
 ![Screenshot 2](Readme/Image/02.png)  
 ![Screenshot 3](Readme/Image/03.png)  
