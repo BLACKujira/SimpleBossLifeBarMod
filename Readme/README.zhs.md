@@ -33,6 +33,6 @@
 ![Screenshot 3](Image/03.png)  
 
 ## 最后
-此项目使用 `Unreal Engine 4.26.2` 开发，需要C++编译器的支持
-点击MOD按钮 `SpawnBGMChangeListener` 会生成一个检测游戏内BGM变化的Actor，在BGM变化时输出当前的BGM名、发生变化时卷轴的ID、位置等信息。用于记录BOSS出现的位置
-我尝试了很久，但始终无法找到记录关卡Z4.0 BOSS血量的对象。如果你成功找到了，请添加issues或者用其他方法联系我，谢谢。
+- 此项目使用 `Unreal Engine 4.26.2` 开发，需要C++编译器的支持
+- 点击MOD按钮 `SpawnBGMChangeListener` 会生成一个检测游戏内BGM变化的Actor，在BGM变化时输出当前的BGM名、发生变化时卷轴的ID、位置等信息。用于记录BOSS出现的位置
+- 我尝试了很久，但始终无法找到记录关卡Z4.0 BOSS血量的对象。如果你成功找到了，请添加issues或者用其他方法联系我，谢谢。
