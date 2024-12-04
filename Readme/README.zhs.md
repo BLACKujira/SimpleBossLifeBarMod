@@ -17,8 +17,10 @@
 4. 将 `SimpleBossLifeBar.pak` 复制到 `RTypeFinal2\Content\Paks\LogicMods` 中
 5. 将 `RTypeFinal2\Content\Paks\pakchunk0-WindowsNoEditor.sig` **复制**到 `RTypeFinal2\Content\Paks\LogicMods` 中，并重命名为 `SimpleBossLifeBar.sig`
 6. 如果安装成功，在UE4SS的控制台中可以看到这样的输出：
-`[xx:xx:xx] [Lua] [SimpleBossLifeBar] ModActorPath: /Game/Level/title/title.title:PersistentLevel.ModActor_C_2147482405`
-`[xx:xx:xx] [Lua] [SimpleBossLifeBar] WE ARE NOW RUSHING INTO STAGE 0 BE ON YOUR GUARD!`
+```
+[xx:xx:xx] [Lua] [SimpleBossLifeBar] ModActorPath: /Game/Level/title/title.title:PersistentLevel.ModActor_C_2147482405
+[xx:xx:xx] [Lua] [SimpleBossLifeBar] WE ARE NOW RUSHING INTO STAGE 0 BE ON YOUR GUARD!
+```
 
 ## 注意点
 - 不要重命名 `SimpleBossLifeBar.pak` ，UE4SS依赖文件名寻找MOD的入口，如果重命名会导致MOD无法正常运作

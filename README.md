@@ -18,9 +18,11 @@
 3. Download `SimpleBossLifeBar.pak` from the Releases section of this repository.
 4. Copy `SimpleBossLifeBar.pak` to the `RTypeFinal2\Content\Paks\LogicMods` directory.
 5. **Copy** `pakchunk0-WindowsNoEditor.sig` from `RTypeFinal2\Content\Paks` to `RTypeFinal2\Content\Paks\LogicMods` and rename it to `SimpleBossLifeBar.sig`.
-6. If the installation is successful, you should see the following output in the UE4SS console:```
+6. If the installation is successful, you should see the following output in the UE4SS console:
+```
 [xx:xx:xx] [Lua] [SimpleBossLifeBar] ModActorPath: /Game/Level/title/title.title:PersistentLevel.ModActor_C_2147482405
-[xx:xx:xx] [Lua] [SimpleBossLifeBar] WE ARE NOW RUSHING INTO STAGE 0 BE ON YOUR GUARD!```
+[xx:xx:xx] [Lua] [SimpleBossLifeBar] WE ARE NOW RUSHING INTO STAGE 0 BE ON YOUR GUARD!
+```
 
 ## Important Notes
 - **Do not rename `SimpleBossLifeBar.pak`.** UE4SS relies on the file name to locate the mod's entry point. Renaming it will prevent the mod from functioning properly.
