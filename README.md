@@ -35,6 +35,6 @@
 ![Screenshot 3](Readme/Image/03.png)  
 
 ## Final Notes
-- This project was developed using `Unreal Engine 4.26.2` and requires a C++ compiler.
+- If you want to contribute to the development of this project, please use `Unreal Engine 4.26.2` with a C++ compiler to open the project file.
 - Pressing the mod button `SpawnBGMChangeListener` will generate an Actor that detects in-game BGM changes. When the BGM changes, it outputs the current BGM name, the ID and position of the scroll where the change occurred, and other information. This is used to record the location where the boss appears.
 - I have spent a long time searching for the object that records the health of the Stage Z4.0 boss, but I have yet to find it. If you succeed in locating it, please add an issue or contact me through other means. Thank you!
