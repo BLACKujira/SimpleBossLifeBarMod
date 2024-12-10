@@ -12,8 +12,9 @@
 
 ## インストール手順
 1. まだ *UE4SS* をインストールしていない場合は、[インストールUE4SS](https://github.com/BLACKujira/RTF2ModdingGuide/blob/master/Chapter1_TheBasics/ja/UE4SS%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB.md) の手順に従って *UE4SS v3.0.0* をインストールし、*v3.0.1* にアップグレードしてください。
-2. [ブループリントModのインストール](https://github.com/BLACKujira/RTF2ModdingGuide/blob/master/Chapter1_TheBasics/ja/%E3%83%96%E3%83%AB%E3%83%BC%E3%83%97%E3%83%AA%E3%83%B3%E3%83%88Mod%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB.md) の手順に従って、このModをインストールしてください。
-3. インストールが成功すると、ゲームを実行後、UE4SSのコンソールで以下のような出力が表示されます：
+2. [Releases](https://github.com/BLACKujira/SimpleBossLifeBarMod/releases) セクションから `SimpleBossLifeBar.pak` をダウンロードしてください。
+3. [ブループリントModのインストール](https://github.com/BLACKujira/RTF2ModdingGuide/blob/master/Chapter1_TheBasics/ja/%E3%83%96%E3%83%AB%E3%83%BC%E3%83%97%E3%83%AA%E3%83%B3%E3%83%88Mod%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB.md) の手順に従って、このModをインストールしてください。
+4. インストールが成功すると、ゲームを実行後、UE4SSのコンソールで以下のような出力が表示されます：
 ```
 [xx:xx:xx] [Lua] [SimpleBossLifeBar] ModActorPath: /Game/Level/title/title.title:PersistentLevel.ModActor_C_2147482405
 [xx:xx:xx] [Lua] [SimpleBossLifeBar] WE ARE NOW RUSHING INTO STAGE 0 BE ON YOUR GUARD!

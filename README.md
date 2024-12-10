@@ -14,8 +14,9 @@
 
 ## Installation Guide
 1. If you haven't installed *UE4SS* yet, please follow the instructions in the [UE4SS Installation Guide](https://github.com/BLACKujira/RTF2ModdingGuide/blob/master/Chapter1_TheBasics/en/InstallingUE4SS.md) to install *UE4SS v3.0.0* and upgrade to *v3.0.1*.
-2. Follow the instructions in [Installing Blueprint Mods](https://github.com/BLACKujira/RTF2ModdingGuide/blob/master/Chapter1_TheBasics/en/InstallingBlueprintMods.md) to install this mod.
-3. If the installation is successful, after running the game, you should see the following output in the UE4SS console:
+2. Download `SimpleBossLifeBar.pak` from the [Releases](https://github.com/BLACKujira/SimpleBossLifeBarMod/releases) section.
+3. Follow the instructions in [Installing Blueprint Mods](https://github.com/BLACKujira/RTF2ModdingGuide/blob/master/Chapter1_TheBasics/en/InstallingBlueprintMods.md) to install this mod.
+4. If the installation is successful, after running the game, you should see the following output in the UE4SS console:
 ```
 [xx:xx:xx] [Lua] [SimpleBossLifeBar] ModActorPath: /Game/Level/title/title.title:PersistentLevel.ModActor_C_2147482405
 [xx:xx:xx] [Lua] [SimpleBossLifeBar] WE ARE NOW RUSHING INTO STAGE 0 BE ON YOUR GUARD!

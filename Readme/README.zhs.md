@@ -12,8 +12,9 @@
 
 ## 安装教程
 1. 如果你还没有安装 *UE4SS* ，请按照 [安装UE4SS](https://github.com/BLACKujira/RTF2ModdingGuide/blob/master/Chapter1_TheBasics/zhs/%E5%AE%89%E8%A3%85UE4SS.md) 中的教程安装 *UE4SS v3.0.0* ，并升级到 *v3.0.1*
-2. 按照 [安装蓝图Mod](https://github.com/BLACKujira/RTF2ModdingGuide/blob/master/Chapter1_TheBasics/zhs/%E5%AE%89%E8%A3%85%E8%93%9D%E5%9B%BEMod.md) 中的教程安装这个Mod
-3. 如果安装成功，运行游戏后将在UE4SS的控制台中可以看到这样的输出：
+2. 下载 [Releases](https://github.com/BLACKujira/SimpleBossLifeBarMod/releases) 中的 `SimpleBossLifeBar.pak`
+3. 按照 [安装蓝图Mod](https://github.com/BLACKujira/RTF2ModdingGuide/blob/master/Chapter1_TheBasics/zhs/%E5%AE%89%E8%A3%85%E8%93%9D%E5%9B%BEMod.md) 中的教程安装这个Mod
+4. 如果安装成功，运行游戏后将在UE4SS的控制台中可以看到这样的输出：
 ```
 [xx:xx:xx] [Lua] [SimpleBossLifeBar] ModActorPath: /Game/Level/title/title.title:PersistentLevel.ModActor_C_2147482405
 [xx:xx:xx] [Lua] [SimpleBossLifeBar] WE ARE NOW RUSHING INTO STAGE 0 BE ON YOUR GUARD!
