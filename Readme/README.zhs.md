@@ -11,12 +11,9 @@
 3. 使用特殊手段改变卷轴速度时，不能保证正常运行
 
 ## 安装教程
-1. 按照 [UE4SS-RE/RE-UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) 及其文档中的教程安装UE4SS v3.0.0，并升级到v3.0.1
-2. 运行一次游戏，如果安装成功，UE4SS的调试窗口会伴随游戏启动。此时游戏目录中会出现 `RTypeFinal2\Content\Paks\LogicMods` 文件夹
-3. 下载 Releases 中的 `SimpleBossLifeBar.pak`。
-4. 将 `SimpleBossLifeBar.pak` 复制到 `RTypeFinal2\Content\Paks\LogicMods` 中
-5. 将 `RTypeFinal2\Content\Paks\pakchunk0-WindowsNoEditor.sig` **复制**到 `RTypeFinal2\Content\Paks\LogicMods` 中，并重命名为 `SimpleBossLifeBar.sig`
-6. 如果安装成功，在UE4SS的控制台中可以看到这样的输出：
+1. 如果你还没有安装 *UE4SS* ，请按照 [安装UE4SS](https://github.com/BLACKujira/RTF2ModdingGuide/blob/master/Chapter1_TheBasics/zhs/%E5%AE%89%E8%A3%85UE4SS.md) 中的教程安装 *UE4SS v3.0.0* ，并升级到 *v3.0.1*
+2. 按照 [安装蓝图Mod](https://github.com/BLACKujira/RTF2ModdingGuide/blob/master/Chapter1_TheBasics/zhs/%E5%AE%89%E8%A3%85%E8%93%9D%E5%9B%BEMod.md) 中的教程安装这个Mod
+3. 如果安装成功，运行游戏后将在UE4SS的控制台中可以看到这样的输出：
 ```
 [xx:xx:xx] [Lua] [SimpleBossLifeBar] ModActorPath: /Game/Level/title/title.title:PersistentLevel.ModActor_C_2147482405
 [xx:xx:xx] [Lua] [SimpleBossLifeBar] WE ARE NOW RUSHING INTO STAGE 0 BE ON YOUR GUARD!
@@ -24,8 +21,7 @@
 
 ## 注意点
 - 不要重命名 `SimpleBossLifeBar.pak` ，UE4SS依赖文件名寻找MOD的入口，如果重命名会导致MOD无法正常运作
-- .sig的名字需要与.pak文件一致，即 `SimpleBossLifeBar.sig` 。游戏在运行时会检查.pak文件是否有对应的.sig签名文件，理论上游戏的其他.sig文件也可以使用
-- 如果UE4SS的调试窗口为一片空白，请将 `RTypeFinal2\Binaries\Win64\UE4SS-settings.ini` 中 `GraphicsAPI` 的值改为 `dx11`
+- 更低版本的 *UE4SS* 或者其他的 *蓝图Mod加载器* 或许也能运行这个Mod。
 
 ## 图片
 ![Screenshot 1](Image/01.png)  

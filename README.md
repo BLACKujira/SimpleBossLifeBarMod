@@ -13,21 +13,17 @@
 3. It may not function correctly if scroll speed is modified using special methods.
 
 ## Installation Guide
-1. Install UE4SS v3.0.0 by following the instructions in the [UE4SS-RE/RE-UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) repository, and upgrade to v3.0.1.
-2. Run the game once. If UE4SS is successfully installed, a debug console will appear with the game. At this point, the `RTypeFinal2\Content\Paks\LogicMods` directory will be created.
-3. Download `SimpleBossLifeBar.pak` from the Releases section of this repository.
-4. Copy `SimpleBossLifeBar.pak` to the `RTypeFinal2\Content\Paks\LogicMods` directory.
-5. **Copy** `pakchunk0-WindowsNoEditor.sig` from `RTypeFinal2\Content\Paks` to `RTypeFinal2\Content\Paks\LogicMods` and rename it to `SimpleBossLifeBar.sig`.
-6. If the installation is successful, you should see the following output in the UE4SS console:
+1. If you haven't installed *UE4SS* yet, please follow the instructions in the [UE4SS Installation Guide](https://github.com/BLACKujira/RTF2ModdingGuide/blob/master/Chapter1_TheBasics/en/InstallingUE4SS.md) to install *UE4SS v3.0.0* and upgrade to *v3.0.1*.
+2. Follow the instructions in [Installing Blueprint Mods](https://github.com/BLACKujira/RTF2ModdingGuide/blob/master/Chapter1_TheBasics/en/InstallingBlueprintMods.md) to install this mod.
+3. If the installation is successful, after running the game, you should see the following output in the UE4SS console:
 ```
 [xx:xx:xx] [Lua] [SimpleBossLifeBar] ModActorPath: /Game/Level/title/title.title:PersistentLevel.ModActor_C_2147482405
 [xx:xx:xx] [Lua] [SimpleBossLifeBar] WE ARE NOW RUSHING INTO STAGE 0 BE ON YOUR GUARD!
 ```
 
 ## Important Notes
-- **Do not rename `SimpleBossLifeBar.pak`.** UE4SS relies on the file name to locate the mod's entry point. Renaming it will prevent the mod from functioning properly.
-- The `.sig` file must match the `.pak` file name, i.e., `SimpleBossLifeBar.sig`. The game checks for a corresponding `.sig` signature file for each `.pak`. In theory, other `.sig` files from the game can also be used.
-- If the UE4SS debug console is blank, set the `GraphicsAPI` value in `RTypeFinal2\Binaries\Win64\UE4SS-settings.ini` to `dx11`.
+- Do not rename `SimpleBossLifeBar.pak`. UE4SS relies on the file name to locate the mod's entry point. Renaming it will prevent the mod from functioning properly.
+- Older versions of *UE4SS* or other *Blueprint Mod Loaders* may also run this mod.
 
 ## Screenshots
 ![Screenshot 1](Readme/Image/01.png)  

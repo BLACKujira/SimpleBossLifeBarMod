@@ -11,21 +11,17 @@
 3. 特殊な方法でスクロール速度を変更した場合、正常に動作しない可能性があります。
 
 ## インストール手順
-1. [UE4SS-RE/RE-UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) のチュートリアルに従ってUE4SS v3.0.0をインストールし、v3.0.1にアップグレードします。
-2. 一度ゲームを起動します。UE4SSが正常にインストールされていれば、ゲームと共にデバッグコンソールが表示されます。この時点で、ゲームフォルダ内に `RTypeFinal2\Content\Paks\LogicMods` ディレクトリが作成されます。
-3. Releasesから `SimpleBossLifeBar.pak` をダウンロードします。
-4. `SimpleBossLifeBar.pak` を `RTypeFinal2\Content\Paks\LogicMods` フォルダにコピーします。
-5. `RTypeFinal2\Content\Paks\pakchunk0-WindowsNoEditor.sig` を `RTypeFinal2\Content\Paks\LogicMods` フォルダに**コピー**し、`SimpleBossLifeBar.sig` に名前を変更します。
-6. 正常にインストールされた場合、UE4SSコンソールに以下のような出力が表示されます：
+1. まだ *UE4SS* をインストールしていない場合は、[インストールUE4SS](https://github.com/BLACKujira/RTF2ModdingGuide/blob/master/Chapter1_TheBasics/ja/UE4SS%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB.md) の手順に従って *UE4SS v3.0.0* をインストールし、*v3.0.1* にアップグレードしてください。
+2. [ブループリントModのインストール](https://github.com/BLACKujira/RTF2ModdingGuide/blob/master/Chapter1_TheBasics/ja/%E3%83%96%E3%83%AB%E3%83%BC%E3%83%97%E3%83%AA%E3%83%B3%E3%83%88Mod%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB.md) の手順に従って、このModをインストールしてください。
+3. インストールが成功すると、ゲームを実行後、UE4SSのコンソールで以下のような出力が表示されます：
 ```
 [xx:xx:xx] [Lua] [SimpleBossLifeBar] ModActorPath: /Game/Level/title/title.title:PersistentLevel.ModActor_C_2147482405
 [xx:xx:xx] [Lua] [SimpleBossLifeBar] WE ARE NOW RUSHING INTO STAGE 0 BE ON YOUR GUARD!
 ```
 
 ## 注意点
-- `SimpleBossLifeBar.pak` の名前を変更しないでください。UE4SSはファイル名を利用してModのエントリを検出するため、名前を変更するとModが正常に動作しなくなります。
-- `.sig` ファイルの名前は `.pak` ファイルと一致する必要があります。つまり `SimpleBossLifeBar.sig` にする必要があります。ゲームは実行時に `.pak` ファイルに対応する `.sig` 署名ファイルを確認します。理論上、ゲームの他の `.sig` ファイルも使用可能です。
-- UE4SSデバッグコンソールが空白の場合は、`RTypeFinal2\Binaries\Win64\UE4SS-settings.ini` の `GraphicsAPI` の値を `dx11` に設定してください。
+- `SimpleBossLifeBar.pak` を名前変更しないでください。UE4SSはファイル名を利用してMODのエントリーポイントを探します。名前変更を行うとMODが正常に動作しません。
+- より低いバージョンの *UE4SS* や他の *ブループリントModローダー* でも、このModが動作する可能性があります。
 
 ## スクリーンショット
 ![Screenshot 1](Image/01.png)  
